@@ -1,0 +1,261 @@
+@import url(/css/style.css);
+
+/* #------------------------------------- LEFT ASIDE --------------------------------------------- */
+
+.connections {
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--white);
+  padding: 0rem 2rem;
+  border: 1px solid var(--silver);
+}
+
+.connections li {
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: var(--weight-bold);
+  margin: 2.5rem 0;
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+.connections p {
+  margin-left: 1rem;
+}
+
+.left_part button {
+  background-color: var(--light-hover);
+  border: 1px solid var(--blue);
+  border-radius: 50px;
+  color: var(--blue);
+  font-weight: var(--weight-bold);
+  padding: 1rem 0;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.left_part button:hover {
+  background-color: var(--light-blue);
+  outline: 1px solid var(--blue);
+}
+
+.left_part button svg {
+  margin-right: 10px;
+}
+
+/* #---------------------------------- CENTER PART ------------------------------------------- */
+
+.job_suggestions {
+  border: 1px solid var(--silver);
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.suggested_job-title {
+  color: var(--charcoal);
+  margin-bottom: 0.3rem;
+}
+
+.suggested_job-title i {
+  font-size: 25px;
+}
+.job-options {
+  border: 1px solid var(--blue);
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.job-options:hover {
+  background-color: var(--hover-blue);
+  outline: 1px solid var(--blue);
+}
+
+.job-options p {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: var(--weight-bold);
+  margin: 0 0.5rem;
+}
+
+.job-options svg {
+  color: var(--blue);
+  margin-left: 1rem;
+}
+
+.option-rows {
+  justify-content: left;
+  gap: 2rem;
+}
+
+.recommended_jobs {
+  color: var(--charcoal);
+}
+
+.recommended_jobs h2 {
+  font-size: 18px;
+}
+
+.recommended_jobs p {
+  font-size: 15px;
+  margin-top: 0.5rem;
+}
+
+.job_description img {
+  width: 6rem;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+.job_description {
+  margin-top: 3rem;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--silver);
+  cursor: pointer;
+}
+
+.job_description:hover h3 {
+  text-decoration: underline;
+}
+
+.left_flex {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.company_description {
+  padding: 1rem;
+}
+
+.company_description h3 {
+  color: var(--blue);
+  font-size: 16px;
+}
+
+.company_description h4 {
+  font-size: 15px;
+  font-weight: var(--weight-bold);
+  color: var(--charcoal);
+  margin: 0.5rem 0;
+}
+
+.company_description p {
+  color: var(--gray);
+}
+
+.company_description img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+
+.company_description span {
+  color: var(--gray);
+}
+
+.job_description svg {
+  color: var(--charcoal);
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+/* #--------------------------------- RIGHT ASIDE -------------------------------------------- */
+
+.job_seeker_guidance {
+  background-color: var(--white);
+  border-radius: 1rem;
+  border: 1px solid var(--silver);
+}
+
+.rightSide_heading {
+  padding: 2.8rem 1.5rem 1rem 1.5rem;
+}
+
+.rightSide_heading h3 {
+  font-size: 17px;
+  color: var(--charcoal);
+}
+
+.rightSide_heading p {
+  color: var(--gray);
+  margin-top: 0.5rem;
+}
+
+.rightSide_improve {
+  background-color: var(--input-bg);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.rightSide_improve:hover {
+  background-color: var(--hover-blue);
+}
+
+.rightSide_improve img {
+  width: 80px;
+  height: 55px;
+  border-radius: 8px;
+}
+
+.rightSide_intro {
+  font-size: 16px;
+  color: var(--charcoal);
+  padding: 1rem 1.5rem;
+}
+
+.rightSide_intro p {
+  line-height: 2rem;
+}
+
+.rightSide_intro a {
+  color: var(--gray);
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.rightSide_intro a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.recommendation_block {
+  background-color: var(--white);
+  border-radius: 10px;
+  border: 1px solid var(--silver);
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* #-------------------------------------------------- MEDIA QUERY ----------------------------------------------------------- */
+
+@media (max-width: 990px) {
+  .aside-right {
+    display: none;
+  }
+
+  .grid-3-col {
+    max-width: 720px;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 17fr);
+  }
+}
+
+@media (max-width: 770px) {
+  .grid-3-col {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 576px;
+  }
+
+  .message_complete_block {
+    display: none;
+  }
+
+  .messege_block {
+    display: none;
+  }
+}

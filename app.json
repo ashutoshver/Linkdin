@@ -1,0 +1,33 @@
+[
+  {
+    "_id": "63abfaa532f8b089f5584e3f",
+    "reactorImage": "https://images.pexels.com/photos/3483800/pexels-photo-3483800.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "reactorName": "Chan yuang",
+    "authorImage": "https://images.pexels.com/photos/13081260/pexels-photo-13081260.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "authorName": "amanda whytt",
+    "jobTitle": "Professional photographer | wanderer",
+    "postTime": "1d",
+    "postDescription": "Photos do define your persona a good one may get you somewhere...",
+    "image": "https://images.pexels.com/photos/5795034/pexels-photo-5795034.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "reactionCount": "8763",
+    "repostCount": "878",
+    "comments": [
+      {
+        "commentatorImage": "https://images.pexels.com/photos/6618822/pexels-photo-6618822.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "commentatorName": "Jim cling",
+        "commentatorDesignation": "Creator a hustlers lab",
+        "comment": "Hah! that what what i was thinking ",
+        "commentTime": "4h",
+        "commentLikes": "765"
+      },
+      {
+        "commentatorImage": "https://images.pexels.com/photos/6618822/pexels-photo-6618822.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "commentatorName": "Jim cling",
+        "commentatorDesignation": "Creator a hustlers lab",
+        "comment": "Hah! that what what i was thinking ",
+        "commentTime": "4h",
+        "commentLikes": "765"
+      }
+    ]
+  }
+]
